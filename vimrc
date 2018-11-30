@@ -35,7 +35,7 @@ set scrolloff=1
 set sidescrolloff=5
 
 " Disable mouse support
-set mouse=r
+set mouse=nicr
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
 call plug#begin('~/.local/share/nvim/plugged')
@@ -70,8 +70,6 @@ call plug#end()
 
 " Configuration
 
-" Theme: Dracula
-color dracula
 
 " vim-airline
 let g:airline#extensions#tabline#enabled=1
